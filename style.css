@@ -1,0 +1,209 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin:0;
+  background-color: #f4f4f4;
+  }
+
+  .container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  }
+  
+  /*manage columns  */
+  .scroll {
+  position:absolute;
+  top: 130px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  overflow-y:scroll;  
+  }
+
+ul{
+  margin: 0;
+  padding: 0;
+  }
+
+  /* Header */
+header{
+  background: #43766C;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #1D2B53 4px solid;
+  box-shadow: 0px 5px 20px rgba(0,0,0,.5);
+  }
+  header a{
+  color: #9DBC98
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  }
+  header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+  }
+  header #brand{
+  float: left;
+  }
+  header #brand h1{
+  margin: 0;
+  }
+  header nav{
+  float: right;
+  margin-top: 10px;
+  }
+  header .highlight, header .current a{
+  color: #9DBC98;
+  font-weight: bold;
+  }
+  header a:hover{
+  color: #F9EFDB;
+  font-weight: bold;
+  }
+  /* Sidebar */
+  aside#sidebar{
+  float: right;
+  width: 30%;
+  padding: 5px;
+  }
+  aside#sidebar .contact input, aside#sidebar .contact textarea{
+  width: 90%;
+  padding: 5px;
+  }
+  article#main-col{
+  float: left;
+  width: 65%;
+  }
+  /* Main View of page */
+  #mainView {
+  min-height: 400px;
+  background-size: cover;
+  text-align: center;
+  color:#AAD9BB;
+  }
+  #mainView h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+  }
+  #mainView p{
+  font-size: 20px;
+  }
+  /* Newsletter */
+  #newsletter{
+  padding: 15px;
+  color: #ffffff;
+  background: #9DBC98;
+  }
+  #newsletter h1{
+  float: left;
+  }
+  #newsletter form{
+  float: right;
+  margin-top: 15px;
+  }
+  #newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+  }
+  .button_1{
+  height: 38px;
+  background: #638889;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #F9EFDB;
+  }
+  footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color:#638889 ;
+  text-align: center;
+  }
+
+  header{
+  padding-bottom: 20px;
+    }
+  #mainVIew h1{
+  margin-top: 40px;
+   }
+   #newsletter button {
+  display: block;
+  width: 100%;
+    }
+  #newsletter form input[type="email"] {
+  width: 100%;
+  margin-bottom: 5px;
+    }
+  
+  #newsletter form input[type="email"],
+  .contact input,
+  .contact textarea,
+  .contact label{
+  width: 100%;
+  margin-bottom: 5px;
+  }
+   
+main {
+padding: 20px;
+}
+
+#main-section {
+text-align: center;
+}
+
+img {
+max-width: 100%;
+height: auto;
+margin-bottom: auto;
+margin-top: auto;
+border-radius: 8px;  
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+/* second image on products page */
+
+.product-image {
+width: 300px;
+height: 300px;
+border-radius: 15%;
+margin-bottom: 75px;
+margin-left: 25px;
+margin-top: 0%;
+margin-right: 25px;
+}
+
+/* Add to cart button prod page */
+.add-to-cart-btn{
+position:relative;
+top: 50%;
+left: 50%;
+width: 200px;
+padding: 10px 20px;
+background-color: #638889;
+color: white;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+  }
+
+/* Hover effect */
+.add-to-cart-btn:hover {
+background-color: #EBD9B4;
+  }
+
+
+/* .logo{
+  width: 200px;
+  height: 100px;
+}  */
+
+
+  /* END CODE */
